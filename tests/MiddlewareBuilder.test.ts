@@ -1,6 +1,6 @@
 import t from 'tap';
 import * as assert from 'assert';
-import { MiddlewareBuilder } from '../src';
+import { MiddlewareBuilder } from '../index';
 import { NextCalledMoreThanOnceError } from '../src/NextCalledMoreThanOnceError';
 
 t.mochaGlobals();
